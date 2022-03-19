@@ -1,0 +1,115 @@
+.chatbox
+{
+    width: 300px;
+    background-color: #fff;
+    height: 400px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.chatbox_header
+{
+    padding: 10px 0;
+    background-color: #A739F7;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+.chatbox_header p
+{
+    margin: 0 !important;  
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+
+}
+.chatbox_footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 35px;
+}
+.chatbox_footer input 
+{
+    width: 70%;
+    border-radius: 0 0 0 10px;
+    border: none;
+    border-top: #A739F7 2px solid;
+
+
+}
+.chatbox_footer input:focus
+{
+    border: none;
+    outline-style: none;
+    border-top: #A739F7 2px solid;
+}
+.chatbox_footer button
+{
+    width: 30%;
+    background-color: #A739F7;
+    color: #fff;
+    border: none;
+    border-radius: 0 0 10px 0;
+}
+.chatbox_footer button:hover
+{
+    cursor: pointer;
+    background-color:#8d09ec;
+    
+}
+.chatbox_body
+{
+    margin: 0 10px;
+    overflow: hidden;
+}
+.chatbox_body .you
+{
+    display: flex;
+    justify-content: flex-start;
+}
+.you .content {
+    justify-content: flex-start;
+  }
+  
+/* .you .mess-meta {
+    justify-content: flex-start;
+    margin-left: 5px;
+  } */
+.chatbox_body .other
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.other .content {
+    justify-content: flex-end;
+  }
+  
+.other .mess-meta {
+    justify-content: flex-end;
+    margin-left: 5px;
+  }
+#content
+{
+    display: inline-block;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: #fff;
+    border: 5px;
+    padding: 0  10px;
+    font-size: 24px;
+    transition:linear 2s;
+
+}
+#content p
+{
+    margin: 0 !important;
+}
+#meta-mess
+{
+    font-size: 16px;
+    color: rgb(124, 121, 121);
+    font-style: italic;
+    margin: 0!important;
+}
